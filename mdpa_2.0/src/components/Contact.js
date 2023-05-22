@@ -2,6 +2,7 @@
 
 import React from "react";
 
+
 export default function Contact() {
     const [name, setName] = React.useState("");
     const [email, setEmail] = React.useState("");
@@ -28,27 +29,24 @@ export default function Contact() {
 
     return (
         <section id="contact" className="relative">
-            <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-                <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-                    <iframe
-                        width="100%"
-                        height="100%"
-                        title="map"
-                        className="absolute inset-0"
-                        frameBorder={0}
-                        marginHeight={0}
-                        marginWidth={0}
-                        style={{ filter: "opacity(0.7)" }}
-                        src="https://www.google.com/maps/embed/v1/place?q=97+warren+st+new+york+city&key=YOUR_API_KEY"
-                    />
+            <div className="">
+                <div className="">
+                    <iframe src="https://www.google.com/maps/d/embed?mid=1Mr03bRIkcBdmdU7L7eSGBCNEIXcOjP4&hl=fr&ehbc=2E312F" width="1505" height="500" title="test">
+                    </iframe>
                     <div className="">
                         <div className="">
                             <h2 className="">
                                 ADDRESSE
                             </h2>
                             <p className="">
-                                97 Warren St. <br />
-                                New York, NY 10007
+                                <p><strong>Antenne d'Aix-en-Provence :</strong> ☞ 14 rue Charloun Rieu, 13090 Aix-en-Provence</p>
+                                <p><strong>GHINS :</strong> ☞ 11 Rue Jean-Louis Vaudoyer, 13090 Aix-en-Provence </p>
+                                <p>Antenne de Gardanne: 19 : ☞ Rue Borely, 13120 Gardanne</p>
+                                <p>Antenne de Bouc-Bel-Air : ☞ Pole Solidarité, Rue Frédéric Chopin, 13320 Bouc-Bel-Air</p>
+                                <p>Antenne des Pennes Mirabeau : ☞ Place Victorin Isnard, 13170 Les Pennes-Mirabeau</p>
+                                <p>Antenne du Puy-Sainte-Réparade : ☞ 11 Avenue de l'ancienne poste, 13610 Le-Puy-Sainte-Réparade</p>
+                                <p>Antenne de Trets : ☞ 2 Av. Mirabeau, 13530</p>
+                                <br />
                             </p>
                         </div>
                         <div className="">
@@ -61,7 +59,7 @@ export default function Contact() {
                             <h2 className="">
                                 TÉLÉPHONE
                             </h2>
-                            <p className="leading-relaxed">123-456-7890</p>
+                            <p className="">04.42.33.09.16</p>
                         </div>
                     </div>
                 </div>
