@@ -22,6 +22,7 @@ export default function Accueil() {
                         >
                             Contact
                         </a>
+                        <br />
                         <a
                             href="#GHINS"
                             className=""
@@ -31,7 +32,9 @@ export default function Accueil() {
                     </div>
                 </div>
             </div>
+            <br />
             <hr />
+            <br />
         </section>
     );
 }

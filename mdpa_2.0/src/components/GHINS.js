@@ -16,7 +16,9 @@ export default function GHINS() {
                     </p>
                 </div>
             </div>
+            <br />
             <hr />
+            <br />
         </section>
     );
 }

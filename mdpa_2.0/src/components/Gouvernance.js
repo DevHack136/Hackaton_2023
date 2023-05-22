@@ -23,7 +23,9 @@ export default function Gouvernance() {
                     </p>
                 </div>
             </div>
+            <br />
             <hr />
+            <br />
         </section>
     );
 }

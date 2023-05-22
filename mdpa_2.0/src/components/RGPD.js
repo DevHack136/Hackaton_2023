@@ -15,7 +15,9 @@ export default function RGPD() {
                     </p>
                 </div>
             </div>
+            <br />
             <hr />
+            <br />
         </section>
     );
 }

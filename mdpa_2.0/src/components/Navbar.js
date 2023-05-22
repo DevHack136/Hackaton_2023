@@ -30,7 +30,9 @@ export default function Navbar() {
                     Contactez-nous !
                 </a>
             </div>
+            <br />
             <hr />
+            <br />
         </header>
     );
 }
