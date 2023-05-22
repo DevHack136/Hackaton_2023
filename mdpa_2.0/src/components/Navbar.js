@@ -6,7 +6,7 @@ import "../styles/Navbar.css";
 export default function Navbar() {
     return (
         <header className="headerNavbar">
-            <div className="divNavbar">
+            <div className="divNavbar flex flex-row justify-center gap-4">
                 <div className="accueilNavbar">
                     <a href="#accueil">
                         Accueil

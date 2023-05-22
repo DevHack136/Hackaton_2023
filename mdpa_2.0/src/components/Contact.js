@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
 import React from "react";
+import "../styles/Contact.css";
 
 
 export default function Contact() {
@@ -43,7 +44,7 @@ export default function Contact() {
                     <div className="">
                         <div className="">
                         <br />
-                            <h2 className="">
+                            <h2 className="h2Contact">
                                 📍ADRESSE📍
                             </h2>
                             <p className="">
@@ -89,14 +90,14 @@ export default function Contact() {
                         </div>
 
                         <div className="">
-                            <h2 className="">
+                            <h2 className="h2Contact">
                                 ✉ EMAIL ✉
                             </h2>
                             <a className="">
                                 reedbarger@email.com
                             </a>
 
-                            <h2 className="">
+                            <h2 className="h2Contact">
                                 ☎ TÉLÉPHONE ☎
                             </h2>
                             <p className="">04.42.33.09.16</p>
@@ -113,7 +114,7 @@ export default function Contact() {
                     onSubmit={handleSubmit}
                     className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
                 >
-                    <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
+                    <h2 className="h2Contact">
                         👇 Contactez-nous ! 👇
                     </h2>
                     <p className="leading-relaxed mb-5">

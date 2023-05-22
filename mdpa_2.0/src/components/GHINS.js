@@ -1,5 +1,5 @@
 import React from "react";
-// import { projects } from "../data";
+import "../styles/GHINS.css";
 
 export default function GHINS() {
     return (

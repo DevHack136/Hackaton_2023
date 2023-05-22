@@ -8,14 +8,6 @@
     padding-top: 20px;
 }
 
-.divNavbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 50px;
-    margin-left: 50px;
-    font-size: xx-large;
-}
 .divNavbar a {
     color: rgb(73, 73, 73);
     text-decoration: none;
