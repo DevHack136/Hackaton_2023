@@ -1,38 +1,40 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 // import { ArrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
+import "../styles/Navbar.css";
 
 export default function Navbar() {
     return (
-        <header className="">
-            <div className="">
-                <div className="">
-                    <a href="#accueil" className="">
+        <header className="headerNavbar">
+            <div className="divNavbar">
+                <div className="accueilNavbar">
+                    <a href="#accueil">
                         Accueil
                     </a>
                 </div>
-                <nav className="">
-                    <a href="#GHINS" className="">
+                <div className="NavbarGHINS">
+                    <a href="#GHINS">
                         GHINS
                     </a>
-                    <br />
-                    <a href="#Gouvernance" className="">
+                </div>
+                <div className="GouvernanceNavbar">
+                    <a href="#Gouvernance">
                         Gouvernance
                     </a>
-                    <br />
-                    <a href="#RGPD" className="">
+                </div>
+                <div className="NavbarRGPD">
+                    <a href="#RGPD">
                         RGPD
                     </a>
-                </nav>
-                <a
-                    href="#contact"
-                    className="">
-                    Contactez-nous !
-                </a>
+                </div>
+                <div className="contactNavbar">
+                    <a href="#contact">
+                        Contactez-nous !
+                    </a>
+                </div>
             </div>
             <br />
             <hr />
-            <br />
         </header>
     );
 }

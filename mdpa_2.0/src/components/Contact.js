@@ -30,6 +30,7 @@ export default function Contact() {
 
     return (
         <section id="contact" className="relative">
+            <br />
             <div className="">
                 <div className="">
                     <iframe
@@ -41,8 +42,9 @@ export default function Contact() {
 
                     <div className="">
                         <div className="">
+                        <br />
                             <h2 className="">
-                            📍ADRESSE📍
+                                📍ADRESSE📍
                             </h2>
                             <p className="">
                                 <p>
@@ -83,7 +85,9 @@ export default function Contact() {
                             </p>
                             <br />
                             <hr />
+                            <br />
                         </div>
+
                         <div className="">
                             <h2 className="">
                                 ✉ EMAIL ✉
@@ -97,9 +101,10 @@ export default function Contact() {
                             </h2>
                             <p className="">04.42.33.09.16</p>
                         </div>
-                        <br />
                     </div>
+                    <br />
                     <hr />
+                    <br />
                 </div>
 
                 <form

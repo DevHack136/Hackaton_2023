@@ -1,2 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
+/* body {
+   
+} */
 
+hr {
+    border-radius: 10px;
+    border: solid 5px gray;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
