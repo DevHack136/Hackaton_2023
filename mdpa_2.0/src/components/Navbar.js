@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { ArrowRightIcon } from "@heroicons/react/solid";
+// import { ArrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
 
 export default function Navbar() {
@@ -28,9 +28,9 @@ export default function Navbar() {
                     href="#contact"
                     className="">
                     Contactez-nous !
-                    <ArrowRightIcon className="" />
                 </a>
             </div>
+            <hr />
         </header>
     );
 }

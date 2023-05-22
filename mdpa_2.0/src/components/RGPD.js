@@ -1,20 +1,21 @@
 import React from "react";
-import { TerminalIcon, UsersIcon } from "@heroicons/react/solid";
-// import { testimonials } from "../data";
 
-export default function Testimonials() {
+export default function RGPD() {
     return (
-        <section id="testimonials">
-            <div className="container px-5 py-10 mx-auto text-center">
-                <UsersIcon className="w-10 inline-block mb-4" />
+        <section id="RGPD">
+            <div className="">
                 <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-12">
-                    Client Testimonials
+                    RGPD
                 </h1>
                 <div className="flex flex-wrap m-4">
-                    <TerminalIcon className="" />
-                    
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
+                        laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
+                        Laborum, voluptas natus?
+                    </p>
                 </div>
             </div>
+            <hr />
         </section>
     );
 }
