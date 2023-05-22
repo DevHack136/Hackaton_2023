@@ -3,7 +3,7 @@ import "../styles/Accueil.css";
 
 export default function Accueil() {
     return (
-        <section id="accueilSection">
+        <section id="accueil">
             <div className="accueilDiv">
                 <h1 className="h1Title">
                     Accueil
