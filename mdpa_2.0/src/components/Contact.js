@@ -124,39 +124,39 @@ export default function Contact() {
                     onSubmit={handleSubmit}
                     className="text-center justify-items-center"
                 >
-                    <h2 className="h2Contact text-center text-5xl font-extrabold">
+                    <h2 className="h2Contact text-black text-center text-5xl font-extrabold">
                         👇 Contactez-nous ! 👇
                     </h2>
                     <br />
                     <br />
                     <div className="mb-5">
-                        <label htmlFor="" className="mr-5">
+                        <label htmlFor="" className="text-black font-bold mr-5">
                             Nom : 
                         </label>
                         <input
                             type="text"
                             id="name"
                             name="name"
-                            className="bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                            className="bg-gray-300 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                             onChange={(e) => setName(e.target.value)}
                         />
                     </div>
                     <div className="mb-5">
-                        <label htmlFor="email" className="leading-7 text-sm text-gray-400 mr-5">
+                        <label htmlFor="email" className="leading-7 text-sm text-black font-bold mr-5">
                             Email :
                         </label>
                         <input
                             type="email"
                             id="email"
                             name="email"
-                            className="bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                            className="bg-gray-300 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                             onChange={(e) => setEmail(e.target.value)}
                         />
                     </div>
                     <div className="mb-5">
                         <label
                             htmlFor="message"
-                            className="text-gray-400 mr-5"
+                            className="text-black font-bold mr-5"
                         >
                             Message :
                         </label>
@@ -165,13 +165,13 @@ export default function Contact() {
                         <textarea
                             id="message"
                             name="message"
-                            className="w-5/12 bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                            className="w-5/12 bg-gray-300 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                             onChange={(e) => setMessage(e.target.value)}
                         />
                     </div>
                     <button
                         type="submit"
-                        className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                        className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg mb-12"
                     >
                         Envoyer
                     </button>

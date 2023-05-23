@@ -4,38 +4,51 @@ import "../styles/Accueil.css";
 export default function Accueil() {
     return (
         <section id="accueil">
-            <div className="accueilDiv">
+            <div className="accueilDiv mx-32">
                 <h1 className="h1Title1 text-center text-5xl font-extrabold">
                     Mission Locale du Pays d'Aix
                 </h1>
-                <h1 className="h1Title2 text-center text-5xl font-extrabold">
+                <h1 className="h1Title2 text-center text-5xl font-extrabold mt-32">
                     Accueil
-                    <br />
-                    <br />
-                    Bienvenue à la Mission Locale du Pays d'Aix !
-                    <br />
-                    <br />
                 </h1>
-                <hr />
+                <h1 className="h1Title3 text-center text-5xl font-extrabold">
+                    Bienvenue à la Mission Locale du Pays d'Aix !
+                </h1>
+
+                <br />
+                <br />
+                <br />
+                <br />
+
                 <p className="">
                     <strong>Votre passerelle vers l'emploi et l'autonomie !</strong>
+                    <br />
                     <br />
                     Vous êtes un jeune résidant dans le Pays d'Aix à la recherche de votre voie professionnelle ?
                     <br />
                     La Mission Locale est là pour vous accompagner dans votre parcours vers l'emploi et l'autonomie.
                     <br />
                     Nous sommes une organisation dédiée à la réussite des jeunes en les soutenant dans leur transition vers la vie active.
-                </p>
-                <p className="">
+                
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                
                     <strong>Qui sommes-nous ?</strong>
+                    <br />
                     <br />
                     La Mission Locale du Pays d'Aix est une structure spécialisée dans l'insertion professionnelle des jeunes âgés de 16 à 25 ans.
                     <br />
                     Notre équipe d'experts qualifiés est là pour vous écouter, vous conseiller et vous guider tout au long de votre parcours.
                     <br />
                     Que vous soyez en quête d'un premier emploi, d'une formation, d'un apprentissage ou simplement en besoin d'informations sur votre recherche d’autonomie, nous sommes là pour vous aider.
-                </p>
-                <p className="">
+                                
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+
                     <strong>Nos services !</strong>
 
                     <br />
@@ -73,12 +86,17 @@ export default function Accueil() {
                     Nous comprenons que les difficultés personnelles peuvent parfois entraver votre progression.
                     <br />
                     C'est pourquoi nous vous offrons un soutien social et administratif pour résoudre les problèmes liés au logement, à la santé, à la mobilité, aux prestations sociales, etc.
+
                     <br />
                     <br />
                     <br />
+                    <br />
+
                     <strong>Contactez-nous dès aujourd'hui !</strong>
+
                     <br />
                     <br />
+
                     Si vous êtes prêt à démarrer votre parcours vers l'emploi et l'autonomie, n'attendez plus !
                     <br />
                     Contactez-nous dès maintenant pour prendre rendez-vous avec l'un de nos conseillers.
@@ -86,8 +104,14 @@ export default function Accueil() {
                     Ensemble, nous élaborerons un plan d'action personnalisé pour vous aider à atteindre vos objectifs professionnels.
                     <br />
                     Rejoignez la Mission Locale du Pays d'Aix et ouvrez-vous de nouvelles opportunités pour un avenir radieux.
-                    <br />
-                    <br />
+                </p>
+
+                <br />
+                <br />
+                <br />
+                <br />
+                
+                <p className="mb-12">
                     <strong>☎ Numéro :</strong> 04 42 33 09 16
                     <br />
                     <br />
