@@ -14,7 +14,7 @@ export default function Contact() {
             .map(
                 (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
             )
-        .join("&");
+            .join("&");
     }
 
     function handleSubmit(e) {
@@ -26,95 +26,94 @@ export default function Contact() {
         })
             .then(() => alert("Message sent!"))
             .catch((error) => alert(error)
-        );
+            );
     }
 
     return (
-        <section id="contact" className="">
+        <section id="contact">
             <br />
-            <div className="">
+            <div>
                 <div className="">
                     <iframe
                         src="https://www.google.com/maps/d/embed?mid=1Mr03bRIkcBdmdU7L7eSGBCNEIXcOjP4&hl=fr&ehbc=2E312F"
                         width="1505"
                         height="500"
-                        title="test">
+                        title="carteMaps">
                     </iframe>
 
-                    <div className="">
-                        <div className="">
+                    <div>
                         <br />
-                            <h2 className="h2Contact text-center text-5xl font-extrabold">
-                                📍ADRESSE📍
-                                <br />
-                                <br />
-                            </h2>
-
-                            <div className="text-center">
-                                <p>
-                                    <strong>Antenne d'Aix-en-Provence :</strong>
-                                    <br />
-                                    ☞ 14 rue Charloun Rieu, 13090 Aix-en-Provence
-                                </p>
-
-                                <br />
-                                <br />
-
-                                <p>
-                                    <strong>GHINS :</strong>
-                                    <br />
-                                    ☞ 11 Rue Jean-Louis Vaudoyer, 13090 Aix-en-Provence
-                                </p>
-
-                                <br />
-                                <br />
-
-                                <p>
-                                    <strong>Antenne de Bouc-Bel-Air :</strong>
-                                    <br />
-                                    ☞ Pole Solidarité, Rue Frédéric Chopin, 13320 Bouc-Bel-Air
-                                </p>
-
-                                <br />
-                                <br />
-
-                                <p>
-                                    <strong>Antenne des Pennes Mirabeau :</strong>
-                                    <br />
-                                    ☞ Place Victorin Isnard, 13170 Les Pennes-Mirabeau
-                                </p>
-
-                                <br />
-                                <br />
-
-                                <p>
-                                    <strong>Antenne de Gardanne :</strong>
-                                    <br />
-                                    ☞ 19 Rue Borely, 13120 Gardanne
-                                </p>
-
-                                <br />
-                                <br />
-
-                                <p>
-                                    <strong>Antenne du Puy-Sainte-Réparade :</strong>
-                                    <br />
-                                    ☞ 11 Avenue de l'ancienne poste, 13610 Le-Puy-Sainte-Réparade
-                                </p>
-
-                                <br />
-                                <br />
-
-                                <p>
-                                    <strong>Antenne de Trets :</strong>
-                                    <br />
-                                    ☞ 2 Av. Mirabeau, 13530
-                                </p>
-                            </div>
+                        <h2 className="h2Contact text-center text-5xl font-extrabold">
+                            📍ADRESSE📍
                             <br />
-                            <hr />
                             <br />
+                        </h2>
+
+                        <div className="text-center">
+                            <p>
+                                <strong>Antenne d'Aix-en-Provence :</strong>
+                                <br />
+                                ☞ 14 rue Charloun Rieu, 13090 Aix-en-Provence
+                            </p>
+
+                            <br />
+                            <br />
+
+                            <p>
+                                <strong>GHINS :</strong>
+                                <br />
+                                ☞ 11 Rue Jean-Louis Vaudoyer, 13090 Aix-en-Provence
+                            </p>
+
+                            <br />
+                            <br />
+
+                            <p>
+                                <strong>Antenne de Bouc-Bel-Air :</strong>
+                                <br />
+                                ☞ Pole Solidarité, Rue Frédéric Chopin, 13320 Bouc-Bel-Air
+                            </p>
+
+                            <br />
+                            <br />
+
+                            <p>
+                                <strong>Antenne des Pennes Mirabeau :</strong>
+                                <br />
+                                ☞ Place Victorin Isnard, 13170 Les Pennes-Mirabeau
+                            </p>
+
+                            <br />
+                            <br />
+
+                            <p>
+                                <strong>Antenne de Gardanne :</strong>
+                                <br />
+                                ☞ 19 Rue Borely, 13120 Gardanne
+                            </p>
+
+                            <br />
+                            <br />
+
+                            <p>
+                                <strong>Antenne du Puy-Sainte-Réparade :</strong>
+                                <br />
+                                ☞ 11 Avenue de l'ancienne poste, 13610 Le-Puy-Sainte-Réparade
+                            </p>
+
+                            <br />
+                            <br />
+
+                            <p>
+                                <strong>Antenne de Trets :</strong>
+                                <br />
+                                ☞ 2 Av. Mirabeau, 13530
+                            </p>
                         </div>
+                        <br />
+                        <hr />
+                        <br />
+
                     </div>
                 </div>
 
@@ -131,7 +130,7 @@ export default function Contact() {
                     <br />
                     <div className="mb-5">
                         <label htmlFor="" className="text-black font-bold mr-5">
-                            Nom : 
+                            Nom :
                         </label>
                         <input
                             type="text"

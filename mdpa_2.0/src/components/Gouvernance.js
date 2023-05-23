@@ -9,7 +9,7 @@ export default function Gouvernance() {
                     <h1 className="text-center text-5xl font-extrabold">
                         Gouvernance
                     </h1>
-                    
+
                     <br />
                     <br />
                     <br />
@@ -36,11 +36,17 @@ export default function Gouvernance() {
                         le Plan d'Action Ville (PAV) pour la Ville
                         Autres intermédiaires selon le type de projet en cours : Fonds Social Européen - Fonds de solidarités - Mécénats - etc
 
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        
+                        <div className="w-full flex flex-row justify-center">
+                            <img alt='imagedescribe' src="https://cdn.discordapp.com/attachments/1110124663113252926/1110566702917373992/6-removebg-preview.png" className="" />
+                            <img alt='imagedescribe' src="https://cdn.discordapp.com/attachments/1110124663113252926/1110567447322427412/7-removebg-preview.png" className="" />
+                        </div>
+
+                        <div className="flex justify-center mt-20">
+                            <img alt='imagedescribe' src="https://cdn.discordapp.com/attachments/1110124663113252926/1110568677117542420/image.png" className="items-center" />
+                        </div>
+
+                        <br />                      
+
                         <strong>Les Ressources de l'association comprennent :</strong>
 
                         <br />
@@ -62,7 +68,7 @@ export default function Gouvernance() {
 
                         <br />
                         <br />
-                        
+
                         Véritable levier et actrice de premier ordre du développement local, la Mission Locale du Pays d'Aix contribue à l'élaboration et à la mise en œuvre de politiques d'insertion professionnelle et sociale.
 
                         <br />
