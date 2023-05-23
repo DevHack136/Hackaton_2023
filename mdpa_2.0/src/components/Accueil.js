@@ -5,18 +5,20 @@ export default function Accueil() {
     return (
         <section id="accueil">
             <div className="accueilDiv">
-                <h1 className="h1Title1">
+                <h1 className="h1Title1 text-center text-5xl font-extrabold">
                     Mission Locale du Pays d'Aix
                 </h1>
-                <h1 className="h1Title2">
+                <h1 className="h1Title2 text-center text-5xl font-extrabold">
                     Accueil
                     <br />
                     <br />
                     Bienvenue à la Mission Locale du Pays d'Aix !
+                    <br />
+                    <br />
                 </h1>
+                <hr />
                 <p className="">
                     <strong>Votre passerelle vers l'emploi et l'autonomie !</strong>
-                    <br />
                     <br />
                     Vous êtes un jeune résidant dans le Pays d'Aix à la recherche de votre voie professionnelle ?
                     <br />
@@ -26,7 +28,6 @@ export default function Accueil() {
                 </p>
                 <p className="">
                     <strong>Qui sommes-nous ?</strong>
-                    <br />
                     <br />
                     La Mission Locale du Pays d'Aix est une structure spécialisée dans l'insertion professionnelle des jeunes âgés de 16 à 25 ans.
                     <br />
@@ -87,30 +88,13 @@ export default function Accueil() {
                     Rejoignez la Mission Locale du Pays d'Aix et ouvrez-vous de nouvelles opportunités pour un avenir radieux.
                     <br />
                     <br />
-                    <strong>Numéro :</strong> 04 42 33 09 16
+                    <strong>☎ Numéro :</strong> 04 42 33 09 16
+                    <br />
+                    <br />
+                    <strong>✉ Email :</strong> aix@ml-pa.org
                 </p>
-                <div className="liens">
-                    <div>
-                        <a
-                            href="#contact"
-                            className="contact"
-                        >
-                            Contact
-                        </a>
-                    </div>
-                    <div>
-                        <a
-                            href="#GHINS"
-                            className="GHINS"
-                        >
-                            GHINS
-                        </a>
-                    </div>
-                </div>
             </div>
-            <br />
             <hr />
-            <br />
         </section>
     );
 }

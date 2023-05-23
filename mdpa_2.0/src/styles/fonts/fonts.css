@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Akrobat-Regular";
+    src: url("../fonts/Akrobat-Regular.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Muli-Regular";
+    src: url("../fonts/Muli-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Politica";
+    src: url("../fonts/Politica.otf") format("truetype");
+}
+  

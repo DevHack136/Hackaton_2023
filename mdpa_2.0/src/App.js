@@ -4,7 +4,6 @@ import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import GHINS from "./components/GHINS";
 import Gouvernance from "./components/Gouvernance";
-import RGPD from "./components/RGPD";
 import "../src/App.css";
 
 
@@ -15,7 +14,6 @@ export default function App() {
       <About />
       <GHINS />
       <Gouvernance />
-      <RGPD />
       <Contact />
     </main>
   );

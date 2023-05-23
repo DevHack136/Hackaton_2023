@@ -1,7 +1,22 @@
+@import url(./styles/fonts/fonts.css);
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    font-family: Politica;
+}
+
+h2, h3, h4 {
+    font-family: Akrobat-Regular;
+}
+
+div p {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* body {
